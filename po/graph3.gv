@@ -1,0 +1,17 @@
+digraph h{
+division [label="var c = a/b"];
+error [label="error division by zero"];
+division -> ok [ label="b != 0" ];
+division -> error [ label="b = 0"];
+
+rankdir=RL;
+node [color = "blue"];
+edge [color = "red"];
+
+A -> B -> C [color="limegreen"];
+C -> B -> D -> A;
+D -> D;
+
+}
+
+

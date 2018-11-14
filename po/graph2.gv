@@ -1,0 +1,10 @@
+digraph G {
+node [shape=box]
+Gilles -> Farid -> Robert
+Gilles -> Robert
+Farid -> Gilles
+}
+
+graph G {
+Eau -> Glace -> Vapeur -> Eau;
+}
